@@ -1,0 +1,70 @@
+03/17/2025
+
+- created project
+- updated gitignore
+- installed dependencies
+  - @fortawesome/fontawesome-svg-core
+  - @fortawesome/free-solid-svg-icons
+  - @fortawesome/react-fontawesome
+  - axios
+  - react-router-dom
+  - styled-components
+- converted index.js from ReportWebVitals to BrowserRouter from react-router-dom
+- removed "code" styles from index.css
+- removed all styles from App.css to /assets/styles/globalStyle.js for styled-components
+- import GlobalStyle to App.js
+- instantiated Routes, Route for react-router-dom page navigation
+- instantiated Home route for react-router-dom as landing route
+- fixed /public/index.html
+  - fixed spacing
+  - removed comments
+  - updated image paths
+  - updated window title
+- updated manifest.json
+  - removed 2 extra image paths
+  - updated first image path to match new image
+- imported custom app icon
+- imported application color scheme as png in /public/Irish Coffee ... .png
+- removed extra images from public folder
+- removed all files from /src except App.css, App.js, index.css, and index.js
+- created assets folder
+- created styles folder
+- created globalStyles file
+- created pages folder
+- started style file for home page
+- created pages folder
+- started home page file
+- built changelog file
+- imported custom font: Dyna Puff
+- updated globalStyles file to incorporate custom font
+- removed Dyna Puff font. relative file wasn't working and decoding correctly in opera. To solve this, font has changed to Tektur from fonts.google.com and the cdn is being used in both the public/index.html file and the src/App.css file.
+- added the tektur font family class identifier to the App div in App.js
+- updated changelog
+- changed justify-content from center to start in App.css on App container
+- created header component
+- imported header component into App.js
+- updated changelog
+- updated spacing in header
+- updated changelog
+- created footer
+- updated background and foreground colors in header component
+- set flex grow property and changed background color for testing in home.js
+- imported Footer into App.js
+- updated letter and word spacing in index.css
+- fixed import in authContext.js
+- setup useEffects to obtain user id from local storage then attempt to get users tasks from api call in home.js
+- updated header padding
+- updated font weight and style for Title and SubTitle in header style
+- shrunk space between Tite and SubTitle
+- added new task button to home screen
+- added edit and delete to home screen
+- set new, edit, delete button styles
+  - while disabled, invisible
+- setup edit, delete button visibility based off an item being selected
+- created scrollbar styles in globalStyles.js
+- imported svg icons into home.js for buttons
+- setup conditional rendering for buttons
+- started area for tasks to be displayed
+- updated spacing and task rendering in home.js
+- moved styles for scrollbar from global styles to home style file and placed directly on task view pane
+- moved default tasks array inside of useEffect hook to prevent change on each render or whatever the warning said lol
